@@ -8,17 +8,21 @@ export const Proyecto = () => {
     const params = useParams();
 
     useEffect(() => {
-        let proyecto = trabajos.filter(trabajo => trabajo.id === params.id);
+        let proyecto = trabajos.find(trabajo => trabajo.id === params.id);
 
         setProyecto(proyecto[0])
-    }, []);
+    }, [params.id]);
 
   return (
+
     <div className='page'>
+
         <div className='mask'>
-            <img src={'/images/'+proyecto.id+'.png'} />
+            <img src={'/images/'+proyecto.id+'.png'} alt="" />
         </div>
+
         <h1 className='heading'>{proyecto.nombre}</h1>
+
         <p>{proyecto.tecnologias}</p>
         <p>{proyecto.descripcion}</p>
         <a href={'https://'+proyecto.url} rel="noreferrer" target='_blank'>Ir al proyecto</a>

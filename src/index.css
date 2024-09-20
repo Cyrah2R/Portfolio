@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+
+  /* Imagen de fondo */
+  background-image: url('/public/images/fondo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 code {
@@ -23,11 +30,12 @@ code {
   justify-content: center;
   align-items: center;
   list-style: none;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #ffffff;
+  ;
 }
 
 .header .iniciales{
-  color: #fa4529;
+  color: #d55d88;
 }
 
 .header .logo{
@@ -71,14 +79,14 @@ code {
 }
 
 .header li a {
-  color: black;
+  color: #ffffff;
   text-decoration: none;
   transition: all 300ms;
 }
 
 .header .active,
 .header a:hover{
-  color: #fa4529;
+  color: #d55d88;
 }
 
 .content {
@@ -92,9 +100,8 @@ code {
   font-size: 14px;
   margin-top: 35px;
   padding-top: 45px;
-  border-top: 3px solid black;
-  background: #f5f5f5;
-  color: #444;
+  border-top: 3px solid #ffffff;;
+  color: #ffffff;
   margin-top: 80px;
 }
 
@@ -107,32 +114,32 @@ code {
 }
 
 .home strong {
-  color: #fa4529;
+  color: #d55d88;
 }
 
 .home h2 {
-  color: rgb(98, 97, 97);
+  color: #ffffff;
   font-weight: lighter;
 }
 
 .home .tittle a {
   padding: 7px;
   border-radius: 5px;
-  color: white;
-  background-color: #fa4529;
+  color: #ffffff;
+  background-color:#d55d88;
   text-decoration: none;
   transition: all 300ms;
 }
 
 .home .tittle a:hover {
-  background-color: #faa629;
+  background-color: #d22d88;
 }
 
 .home .heading,
 .page .heading {
   font-size:  40px;
   font-weight: 500;
-  color: black;
+  color: #ffffff;
   margin-bottom: 0px;
 }
 
@@ -142,7 +149,7 @@ code {
 }
 
 .home p {
-  color: rgb(98, 97, 97);
+  color: #ffffff;
 }
 
 input[type='text'],
@@ -160,8 +167,8 @@ button {
   margin-top: 15px;
   border: 0px;
   border-radius: 5px;
-  color: white;
-  background-color: #fa4529;
+  color: #ffffff;
+  background-color: #d55d88;
   text-decoration: none;
   cursor: pointer;
   transition: all 300ms;
@@ -169,7 +176,7 @@ button {
 
 input[type='submit']:hover,
 button:hover {
-  background-color: #faa629;
+  background-color: #d22d88;
 }
 
 .works{
@@ -188,8 +195,8 @@ button:hover {
   width: 100%;
   height: 350px;
   overflow: hidden;
-  border: 1px solid #ddd;
-  box-shadow: 0px 5px 14px #ddd;
+  border: 1px solid #3b7575;
+  box-shadow: 0px 5px 14px #d55d88;
 }
 .work-item img{
   width: 120%;
@@ -203,7 +210,7 @@ button:hover {
 
 .work-item span{
   display: block;
-  color: gray;
+  color: #ffffff;
   margin-top: 35px;
 }
 
@@ -216,25 +223,25 @@ button:hover {
 }
 
 .work-item a {
-  color: #fa4529;
+  color: #d55d88;
   text-decoration: none;
   transition: all 300ms;
 }
 
 .work-item a:hover {
-  color: #faa629;
+  color: #d22d88;
 }
 
 .work-item h3 {
   display: block;
-  color: gray;
+  color: #ffffff;
   padding-top: 15px;
   margin-top: 0px;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #ffffff;
 }
 
 .page-work .mask {
   height: 300px;
   overflow: hidden;
-  box-shadow: 0px 0px 20px #ddd;
+  box-shadow: 0px 0px 20px #ffffff;
 }
