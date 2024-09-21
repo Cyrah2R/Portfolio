@@ -113,13 +113,17 @@ code {
   margin-top: 80px;
 }
 
+.home h2 {
+  color: #ffffff;
+  font-weight: lighter;
+}
+
 .home strong {
   color: #d55d88;
 }
 
-.home h2 {
+.home p {
   color: #ffffff;
-  font-weight: lighter;
 }
 
 .home .tittle a {
@@ -146,10 +150,6 @@ code {
 .page .heading {
   font-size: 55px;
   font-weight: bold;
-}
-
-.home p {
-  color: #ffffff;
 }
 
 input[type='text'],
@@ -244,4 +244,51 @@ button:hover {
   height: 300px;
   overflow: hidden;
   box-shadow: 0px 0px 20px #ffffff;
+}
+
+.carrusel {
+  display: flex;
+  justify-content: center; /* Centra el carrusel en la página */
+  align-items: center; /* Centra verticalmente el contenido */
+}
+
+.contenedor-fotos {
+  margin-top: 5px;
+  position: relative; /* Para posicionar las flechas dentro */
+  width: 600px; /* Ancho del contenedor */
+  height: 400px; /* Alto del contenedor */
+  overflow: hidden; /* Oculta imágenes fuera del contenedor */
+  border: 2px solid #ccc; /* Borde alrededor del contenedor */
+  border-radius: 8px; /* Bordes redondeados */
+  display: flex; /* Usar flex para centrar el contenido */
+  align-items: center; /* Centra verticalmente */
+}
+
+.flecha {
+  position: absolute; /* Permite posicionar las flechas */
+  top: 50%;
+  transform: translateY(-50%); /* Centra verticalmente las flechas */
+  background-color: #d55d88; /* Fondo semitransparente */
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1; /* Asegura que las flechas estén por encima de la imagen */
+}
+
+.flecha:hover {
+  background-color:#d22d88; /* Efecto hover */
+}
+
+.flecha:first-child {
+  left: 10px; /* Posición de la flecha anterior */
+}
+
+.flecha:last-child {
+  right: 10px; /* Posición de la flecha siguiente */
+}
+
+img {
+  width: 100%; /* Ajusta el tamaño de la imagen al contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
 }
