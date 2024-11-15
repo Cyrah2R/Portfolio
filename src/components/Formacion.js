@@ -1,15 +1,31 @@
 import React from 'react'
 
-export const Curriculum = () => {
+export const Formacion = () => {
+
   return (
     <div className='page'>
-      <h1 className='heading'>Curriculum</h1>
+      <h1 className='heading'>Formacion</h1>
 
       <h2>Experiencia</h2>
         <ul>
           <li>
+            <strong>Desarrollador Web Freelance - Cyrah Code</strong>
+            <em> Octubre - Noviembre 2024</em>
+            <p>Desarrollo de Web personalizada para restaurante
+              <a href="https://la-porcion.web.app/" target="_blank" rel="noopener noreferrer"> La Porcion</a>
+              , donde usamos:
+            </p>
+            <ul>
+              <li>ReactJS</li>
+              <li>CSS</li>
+              <li>Contenido multimedia propio</li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>
             <strong>Desarrollador Front-end con React - N-Way Group</strong>
-            <em>Prácticas FCT: Junio - Septiembre 2024</em>
+            <em> Prácticas FCT: Junio - Septiembre 2024</em>
             <p>Participación en el desarrollo de la aplicación
               <a href="https://brodriver.com/website/" target="_blank" rel="noopener noreferrer"> Brodrivers</a>
               , encargándome de:

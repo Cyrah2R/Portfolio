@@ -8,6 +8,7 @@ export const HeaderNav = () => {
       <div className='logo'>
         <span className='iniciales'>DЯ</span>
         <h3>David Rivera Ruz</h3>
+        <img src="/images/logo.png" alt="Logo" />
       </div>
 
       <nav>
@@ -15,14 +16,14 @@ export const HeaderNav = () => {
               <li>
                 <NavLink to="/inicio" className={({isActive}) => isActive ? "active" : ""}>Inicio</NavLink>
               </li>
-              <li>
-                <NavLink to="/portafolio"className={({isActive}) => isActive ? "active" : ""}>Portafolio</NavLink>
-              </li>
               {/* <li>
-                <NavLink to="/servicios"className={({isActive}) => isActive ? "active" : ""}>Servicios</NavLink>
+                <NavLink to="/portafolio"className={({isActive}) => isActive ? "active" : ""}>Portafolio</NavLink>
               </li> */}
               <li>
-                <NavLink to="/curriculum"className={({isActive}) => isActive ? "active" : ""}>Curriculum</NavLink>
+                <NavLink to="/bio"className={({isActive}) => isActive ? "active" : ""}>Bio</NavLink>
+              </li>
+              <li>
+                <NavLink to="/formacion"className={({isActive}) => isActive ? "active" : ""}>Formacion</NavLink>
               </li>
               <li>
                 <NavLink to="/contacto"className={({isActive}) => isActive ? "active" : ""}>Contacto</NavLink>

@@ -34,13 +34,17 @@ code {
   ;
 }
 
-.header .iniciales{
-  color: #d55d88;
-}
-
 .header .logo{
   flex-grow: 2;
   display: flex;
+}
+
+.header .logo img {
+  display: block;
+  width: 70px; /* La imagen no será más ancha que su contenedor */
+  height: 70px; /* La imagen no será más alta que su contenedor */
+  margin: 10px;
+  padding: 5px;
 }
 
 .header .logo span {
@@ -48,6 +52,7 @@ code {
   font-size: 90px;
   font-weight: bolder;
   margin-top: -8px;
+  color: #d55d88;
 }
 
 .header .logo h3 {
@@ -111,6 +116,7 @@ code {
   font-size: 60px;
   margin-bottom: 0px;
   margin-top: 80px;
+  padding: 10px;
 }
 
 .home h2 {
@@ -124,6 +130,25 @@ code {
 
 .home p {
   color: #ffffff;
+}
+
+.home .presentacion{
+  display: flex;
+  justify-content: space-between;
+}
+
+.presentacion .textoini {
+  margin-top: 80px;
+  padding: 15px;
+  text-align: center;
+}
+
+.presentacion .foto {
+  width: 150px;
+  height: 150px;
+  margin-top: 80px;
+  padding: 10px;
+
 }
 
 .home .tittle a {
@@ -193,7 +218,7 @@ button:hover {
 
 .work-item .mask{
   width: 100%;
-  height: 350px;
+  max-height: 150px;
   overflow: hidden;
   border: 1px solid #3b7575;
   box-shadow: 0px 5px 14px #d55d88;
