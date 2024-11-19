@@ -1,9 +1,9 @@
 export const trabajos = [
     {
-        'id': 'davidriveraruzweb',
-        'nombre' : 'David Rivera Web',
-        'url': 'davidriveraruz.es',
-        'tecnologias': 'HTML, CSS, JS, PHP, MySQL',
+        'id': 'laporcion',
+        'nombre' : 'La Porcion',
+        'url': 'https://la-porcion.web.app/',
+        'tecnologias': 'React, CSS, Javascript',
         'categorias': 'Desarrollo Web',
         'descripcion': `El proyecto fue construido utilizando React.js, una biblioteca de JavaScript para construir interfaces de usuario. 
                         Esta elección permitió desarrollar componentes reutilizables, facilitando la gestión del estado de la aplicación y 
@@ -14,10 +14,10 @@ export const trabajos = [
                         se vea bien en dispositivos de diferentes tamaños.`
     },
     {
-        'id': 'laporcion',
-        'nombre' : 'La Porcion',
-        'url': 'https://la-porcion.web.app/',
-        'tecnologias': 'React, CSS, Javascript',
+        'id': 'davidriveraruzweb',
+        'nombre' : 'David Rivera Web',
+        'url': 'davidriveraruz.es',
+        'tecnologias': 'HTML, CSS, JS, PHP, MySQL',
         'categorias': 'Desarrollo Web',
         'descripcion': `El proyecto fue construido utilizando React.js, una biblioteca de JavaScript para construir interfaces de usuario. 
                         Esta elección permitió desarrollar componentes reutilizables, facilitando la gestión del estado de la aplicación y 

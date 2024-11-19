@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route, BrowserRouter, Navigate} from "react-router-dom";
-import { Inicio } from "../components/Inicio";
+import { Home } from "../components/Home";
 // import { Portafolio } from "../components/Portafolio";
 import { Bio } from "../components/Bio";
 import { Formacion } from "../components/Formacion";
@@ -16,12 +16,11 @@ export const MisRutas = () => {
         {/* HEADER Y NAVEGACION */}
         <HeaderNav />
 
-
         {/* CONTENIDO CENTRAL */}
         <section className="content">
           <Routes>
-              <Route path="/" element={<Navigate to="/inicio" />} />
-              <Route path="/inicio" element={<Inicio />} />
+              <Route path="/" element={<Navigate to="/home" />} />
+              <Route path="/home" element={<Home />} />
               {/* <Route path="/portafolio" element={<Portafolio />} /> */}
               <Route path="/bio" element={<Bio />} />
               <Route path="/formacion" element={<Formacion />} />
@@ -33,11 +32,8 @@ export const MisRutas = () => {
                   </div>
                 } 
               />
-
           </Routes>
-
         </section>
-
 
         {/* FOOTER */}
         <Footer />

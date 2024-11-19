@@ -10,7 +10,7 @@ export const ListadoTrabajos = ({limite}) => {
             return (
               <article key={trabajo.id} className='work-item'>
                 <div className='mask'>
-                  <img src={'/images/'+trabajo.id+'.png'} alt="" />
+                  <img src={'/images/proyectos/'+trabajo.id+'.png'} alt="" />
                 </div>
                 <span>{trabajo.categorias}</span>
                 <h2><strong><Link to={'/proyecto/'+trabajo.id}>{trabajo.nombre}</Link></strong></h2>
